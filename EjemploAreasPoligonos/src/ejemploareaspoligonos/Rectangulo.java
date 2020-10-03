@@ -22,7 +22,9 @@ public class Rectangulo extends Poligono{
         this.lado2 = lado2;
     }
     
-    public String ToString(){
+    
+    @Override
+    public String toString(){
         return "Numero de lados = " + numeroLados + " Lado 1 = " + lado1 + " Lado 2 = " + lado2;
     }
     
