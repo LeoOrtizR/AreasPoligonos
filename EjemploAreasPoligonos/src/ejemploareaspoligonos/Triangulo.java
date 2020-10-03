@@ -5,7 +5,7 @@ public class Triangulo extends Poligono{
     private double lado2;
     private double lado3;
     
-    public Triangulo(int lado1, int lado2, int lado3){
+    public Triangulo(double lado1, double lado2, double lado3){
         super(3);
         this.lado1 = lado1;
         this.lado2 = lado2;
